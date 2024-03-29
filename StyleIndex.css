@@ -49,3 +49,44 @@ form {
   background-color: white;
   color: black;
 }
+.form-check-input[type="radio"] {
+  width: 30px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+}
+
+.form-check-label {
+  font-size: 20px; /* Adjust the font size as needed */
+  padding-left: 8px;
+}
+.call-section {
+  background: #f7f7f7;
+  margin: 0px;
+  width: 100%;
+}
+
+.text-green {
+  color: green;
+  font-weight: bold;
+}
+
+.image-lastro {
+  background-image: url(images/lasttro.jpg);
+  height: fit-content;
+  width: 100%;
+  margin: 0px;
+}
+
+.footer .bi-facebook {
+    font-size: 20px; /* Adjust the size as needed */
+    
+}
+
+.footer .bi-twitter{
+    font-size: 20px; /* Adjust the size as needed */
+}
+::selection {
+    background-color: green;
+    color: white; /* Text color of the highlighted text */
+}
+
+
