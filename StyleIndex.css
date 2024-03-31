@@ -4,11 +4,11 @@ body {
 
 .front_title {
   letter-spacing: 0px;
-  color: #3a57ff;
+  color: #7e8de0;
 }
 
 .img-banner {
-  background-image: url(images/banner.jpeg);
+  background-image: url(images/banner2.jpg);
   height: fit-content;
   width: 100%;
   margin: 0px;
@@ -29,7 +29,7 @@ h2 {
 }
 
 .blue-color-text {
-  color: blue;
+  color: rgb(80, 80, 247);
 }
 
 .red-color-text {
@@ -64,29 +64,50 @@ form {
   width: 100%;
 }
 
-.text-green {
-  color: green;
+.text-green a{
+  color: green !important;
   font-weight: bold;
+  text-decoration: none !important;
 }
 
+
+
 .image-lastro {
-  background-image: url(images/lasttro.jpg);
+  background-image: url(images/last2.jpeg);
   height: fit-content;
   width: 100%;
   margin: 0px;
 }
 
 .footer .bi-facebook {
-    font-size: 20px; /* Adjust the size as needed */
-    
+  font-size: 20px; /* Adjust the size as needed */
 }
 
-.footer .bi-twitter{
-    font-size: 20px; /* Adjust the size as needed */
+.footer .bi-twitter {
+  font-size: 20px; /* Adjust the size as needed */
 }
 ::selection {
-    background-color: green;
-    color: white; /* Text color of the highlighted text */
+  background-color: green;
+  color: white; /* Text color of the highlighted text */
 }
 
+.text-color-ash {
+  color: #6d6d6d;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
 
+.bottom_link a {
+  color: white; /* Initial color */
+  font-size:20px; /* Initial font size */
+  transition: color 0.3s, font-size 0.3s; /* Transition effect */
+}
+
+.bottom_link a:hover {
+  color: green; /* Color on hover */
+  font-size: 23px; /* Font size on hover */
+}
+
+.white-text{
+  color: white;
+}
